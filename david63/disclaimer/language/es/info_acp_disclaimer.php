@@ -36,5 +36,3 @@ $lang = array_merge($lang, array(
 	'SHOW_DISCLAIMER'			=> 'Mostrar Aviso Legal',
 	'SHOW_DISCLAIMER_EXPLAIN'	=> 'Mostrar el mensaje de Aviso Legal en la parte inferior de cada página.',
 ));
-
-?>

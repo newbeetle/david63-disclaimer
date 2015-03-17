@@ -42,5 +42,3 @@ $lang = array_merge($lang, array(
 'DISCLAIMER_TEXT'=>'<h3>Forumska izjava o odricanju od odgovornosti</h3>
 <p>Mišljenja i komentari postani na ovom forumu osobne su naravi autora/ica postova i ne predstavljaju mišljenja “Uprave” %1$s.<br />“Uprava” %1$s nije, ne može i neće biti odgovorna za ikakve gubitke/štetu bilo koje vrste, a koji su nastali kao posljedica korištenja i/ili nemogućnosti korištenja %1$s odnosno uzimanja u obzir/postupanja po objavljenim postovima na %1$s pa čak niti u slučaju da je “Uprava” %1$s bila upozorena da do ikakvih gubitaka/štete može doći jednako kao što “Uprava” %1$s nije, ne može i neće biti odgovorna za ikakav postan(i) linkan(i) sadržaj s drugih stranica.</p>',
 ));
-
-?>

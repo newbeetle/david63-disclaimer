@@ -34,9 +34,11 @@ class listener implements EventSubscriberInterface
 	/**
 	* Constructor for listener
 	*
-	* @param \phpbb\config\config $config phpBB config
-	* @param \phpbb\request\request $request phpBB request
-	* @param \phpbb\template\twig\twig $template phpBB template
+	* @param \phpbb\config\config		$config		phpBB config
+	* @param \phpbb\request\request		$request	phpBB request
+	* @param \phpbb\template\twig\twig	$template	phpBB template
+	* @param \phpbb\user				$user		User object
+	*
 	* @access public
 	*/
 	public function __construct(\phpbb\config\config $config, \phpbb\request\request $request, \phpbb\template\twig\twig $template, \phpbb\user $user)
@@ -92,7 +94,6 @@ class listener implements EventSubscriberInterface
 					);
 				}
 			}
-
 			$event->offsetSet('display_vars', $new_display_var);
 		}
 	}
@@ -124,7 +125,7 @@ class listener implements EventSubscriberInterface
 	public function page_header($event)
 	{
 		$this->template->assign_vars(array(
-			'DISCLAIMER_BODY'	=> sprintf($this->user->lang['DISCLAIMER_TEXT'], $this->config['sitename']),
+			'DISCLAIMER_BODY'	=> sprintf($this->user->lang('DISCLAIMER_TEXT'), $this->config['sitename']),
 			'S_DISCLAIMER'		=> $this->config['show_disclaimer'],
 			'SITE'				=> $this->config['sitename'],
 		));

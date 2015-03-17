@@ -37,5 +37,3 @@ $lang = array_merge($lang, array(
 	'SHOW_DISCLAIMER'			=> 'عرض إخلاء المسئولية ',
 	'SHOW_DISCLAIMER_EXPLAIN'	=> 'إظهار إخلاء المسئولية الخاص بالمنتدى في أسفل كل صفحة.',
 ));
-
-?>

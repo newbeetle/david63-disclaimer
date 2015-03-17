@@ -37,5 +37,3 @@ $lang = array_merge($lang, array(
 'SHOW_DISCLAIMER'=>'Prikaži izjavu o odricanju od odgovornosti',
 'SHOW_DISCLAIMER_EXPLAIN'=>'Ukoliko je omogućeno, izjava o odricanju od odgovornosti bit će prikazana na dnu svake stranice.',
 ));
-
-?>
