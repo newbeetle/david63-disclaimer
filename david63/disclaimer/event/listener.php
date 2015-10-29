@@ -25,7 +25,7 @@ class listener implements EventSubscriberInterface
 	/** @var \phpbb\request\request */
 	protected $request;
 
-	/** @var \phpbb\template\twig\twig */
+	/** @var \phpbb\template\template */
 	protected $template;
 
 	/** @var \phpbb\user */
@@ -36,12 +36,12 @@ class listener implements EventSubscriberInterface
 	*
 	* @param \phpbb\config\config		$config		phpBB config
 	* @param \phpbb\request\request		$request	phpBB request
-	* @param \phpbb\template\twig\twig	$template	phpBB template
+	* @param \phpbb\template\template	$template	phpBB template
 	* @param \phpbb\user				$user		User object
 	*
 	* @access public
 	*/
-	public function __construct(\phpbb\config\config $config, \phpbb\request\request $request, \phpbb\template\twig\twig $template, \phpbb\user $user)
+	public function __construct(\phpbb\config\config $config, \phpbb\request\request $request, \phpbb\template\template $template, \phpbb\user $user)
 	{
 		$this->config	= $config;
 		$this->request	= $request;
