@@ -1,0 +1,23 @@
+{
+	"name": "david63/disclaimer",
+	"type": "phpbb-extension",
+	"description": "Adds an expandable disclaimer panel to the bottom of each page",
+	"version": "2.1.0",
+	"time": "2014-11-30",
+	"keywords": ["phpbb", "extension", "disclaimer"],
+	"license": "GPL-2.0",
+	"authors": [{
+			"name": "David Wood",
+			"username": "david63",
+			"role": "Developer"
+		}],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"extra": {
+		"display-name": "Forum Disclaimer",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.2.0@dev,<3.3.0@dev"
+      	}
+	}
+}
